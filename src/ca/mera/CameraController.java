@@ -10,9 +10,12 @@ public class CameraController extends BukkitRunnable {
     private Player player;
     private final Location[] points;
 
-    // Time variables
+    // Time properties
     private final long duration;
     private long time;
+
+    // Path properties
+    private boolean smooth;
 
     /**
      * Create an instance of the CameraController
@@ -24,6 +27,10 @@ public class CameraController extends BukkitRunnable {
 	this.player = player;
 	this.duration = duration;
 	this.points = points;
+
+	// Path properties
+	this.smooth = true;
+
 	if (points.length < 2) {
 	    throw new RuntimeException(
 		    "A travel requires at least two locations (a start and an end point!)");
@@ -38,9 +45,12 @@ public class CameraController extends BukkitRunnable {
     /**
      * Starts the navigation of the player
      */
-    public void start() {
+    public void start(boolean smooth) {
 	// Set the time
 	this.time = this.duration;
+
+	// Set the path properties
+	this.smooth = smooth;
 
 	// Enable the players flight properties
 	this.player.setAllowFlight(true);
