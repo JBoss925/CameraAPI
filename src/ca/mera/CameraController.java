@@ -30,15 +30,6 @@ public class CameraController extends BukkitRunnable {
 	}
     }
 
-    /**
-     * Get the duration left of a travel
-     * 
-     * @return The amount of ticks left of the travel
-     */
-    public long getTimeLeft() {
-	return this.duration - this.time;
-    }
-
     @Override
     public void run() {
 	// teleport to each point
@@ -48,6 +39,9 @@ public class CameraController extends BukkitRunnable {
      * Starts the navigation of the player
      */
     public void start() {
+	// Set the time
+	this.time = this.duration;
+
 	// Enable the players flight properties
 	this.player.setAllowFlight(true);
 	this.player.setFlying(true);
