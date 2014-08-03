@@ -1,3 +1,19 @@
+/**
+ * A bukkit plugin which allows the user to neatly navigate 
+ * their in-game player in a cinematic camera like way.
+ *
+ * @author Kieron Wiltshire
+ * 	Email: kieron.wiltshire@outlook.com
+ * 	Skype: kieron.wiltshire
+ * @author CurseLuke
+ * 
+ * This plugin was inspired by the CameraStudio plugin.
+ * The CameraStudio plugin was very neat except it wasn't
+ * very developer friendly. It was originally created by
+ * the ( crushedpixel.eu ) server team and was revamped
+ * by Kieron Wiltshire and CurseLuke.
+ *
+ */
 package ca.mera.commands;
 
 import java.io.File;
