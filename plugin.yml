@@ -1,0 +1,44 @@
+name: CameraAPI
+version: 1.0.0
+main: ca.mera.CameraAPI
+commands:
+    camera:
+        description: CameraAPI default command. Use /camera for sub arguments
+permissions:
+    cameraapi.help:
+        default: true
+    cameraapi.list:
+        default: true
+    cameraapi.plan:
+        default: op
+    cameraapi.setpoint:
+        default: op
+    cameraapi.cancel:
+        default: op
+    cameraapi.create:
+        default: op
+    cameraapi.delete:
+        default: op
+    cameraapi.undo:
+        default: op
+    cameraapi.play:
+        default: true
+    cameraapi.interrupt:
+        default: true
+    cameraapi.use:
+        default: true
+        children:
+            cameraapi.help: true
+            cameraapi.list: true
+            cameraapi.play: true
+            cameraapi.interrupt: true
+    cameraapi.*:
+        default: op
+        children:
+            cameraapi.use: true
+            cameraapi.plan: true
+            cameraapi.setpoint: true
+            cameraapi.cancel: true
+            cameraapi.create: true
+            cameraapi.delete: true
+            cameraapi.undo: true
