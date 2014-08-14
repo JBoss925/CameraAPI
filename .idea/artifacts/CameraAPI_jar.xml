@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CameraAPI:jar">
+    <output-path>$USER_HOME$/Dropbox/craftbukkit/plugins</output-path>
+    <root id="archive" name="CameraAPI.jar">
+      <element id="module-output" name="CameraAPI" />
+    </root>
+  </artifact>
+</component>
