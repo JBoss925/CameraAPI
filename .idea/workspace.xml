@@ -63,44 +63,7 @@
     <favorites_list name="Camera" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CameraAPI.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CameraAPI/src/ca/mera/CameraAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="407" column="33" selection-start="12467" selection-end="12467" vertical-scroll-proportion="0.16018662" vertical-offset="5327" max-vertical-offset="5970">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugin.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CameraAPI/src/plugin.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="21" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="780">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CameraCommand.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CameraAPI/src/ca/mera/commands/CameraCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="137" selection-start="1806" selection-end="1806" vertical-scroll-proportion="-6.6" vertical-offset="255" max-vertical-offset="5955">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Messages.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CameraAPI/src/ca/mera/util/Messages.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="173" column="41" selection-start="6615" selection-end="6631" vertical-scroll-proportion="0.0" vertical-offset="2595" max-vertical-offset="2745">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -117,7 +80,10 @@
         <option value="$PROJECT_DIR$/CameraAPI/src/ca/mera/commands/FreeFloatCommand.java" />
         <option value="$PROJECT_DIR$/CameraAPI/src/ca/mera/commands/FreeFloatCommandUtil.java" />
         <option value="$PROJECT_DIR$/CameraAPI/plugin.yml" />
+        <option value="$PROJECT_DIR$/CameraAPI/src/ca/mera/CameraPath.java" />
+        <option value="$PROJECT_DIR$/CameraAPI/src/ca/mera/controllers/CameraController.java" />
         <option value="$PROJECT_DIR$/CameraAPI/src/ca/mera/CameraAPI.java" />
+        <option value="$PROJECT_DIR$/CameraAPI/src/ca/mera/controllers/FreeFloatController.java" />
         <option value="$PROJECT_DIR$/CameraAPI/src/ca/mera/commands/CameraCommand.java" />
       </list>
     </option>
@@ -379,7 +345,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="22" width="1241" height="778" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -396,7 +362,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24979855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24979855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -545,13 +511,6 @@
         <state line="42" column="7" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.2972561" vertical-offset="75" max-vertical-offset="2970" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CameraAPI/src/ca/mera/CameraController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="71" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.57164633" vertical-offset="0" max-vertical-offset="2460">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CameraAPI/.classpath">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="668" />
@@ -566,28 +525,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CameraAPI/src/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CameraAPI/src/ca/mera/CameraPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="654" selection-end="654" vertical-scroll-proportion="0.11432927" vertical-offset="0" max-vertical-offset="2235">
+        <state line="22" column="21" selection-start="526" selection-end="526" vertical-scroll-proportion="0.5229794" vertical-offset="0" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CameraAPI/src/ca/mera/commands/CameraCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="137" selection-start="1806" selection-end="1806" vertical-scroll-proportion="-6.6" vertical-offset="255" max-vertical-offset="5955">
+        <state line="39" column="7" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.20995334" vertical-offset="0" max-vertical-offset="5955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CameraAPI/src/ca/mera/CameraPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="14" selection-start="919" selection-end="919" vertical-scroll-proportion="0.33231708" vertical-offset="7" max-vertical-offset="2235">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CameraAPI/src/ca/mera/controllers/FreeFloatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="44" selection-start="971" selection-end="971" vertical-scroll-proportion="0.5132193" vertical-offset="75" max-vertical-offset="1380">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CameraAPI/src/ca/mera/controllers/CameraController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="10" selection-start="4468" selection-end="4468" vertical-scroll-proportion="3.2240853" vertical-offset="0" max-vertical-offset="2460">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CameraAPI/src/ca/mera/CameraAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="407" column="33" selection-start="12467" selection-end="12467" vertical-scroll-proportion="0.16018662" vertical-offset="5327" max-vertical-offset="5970">
+        <state line="51" column="32" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.16006097" vertical-offset="0" max-vertical-offset="5130">
           <folding />
         </state>
       </provider>
